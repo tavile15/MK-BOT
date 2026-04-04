@@ -133,6 +133,22 @@ class BinanceSigned:
             p["symbol"] = symbol.upper()
         return self._request("GET", "/api/v3/openOrders", p)
 
+    def my_trades(
+        self,
+        symbol: str,
+        *,
+        limit: int = 1000,
+        from_id: int | None = None,
+    ) -> list[dict[str, Any]]:
+        """GET /api/v3/myTrades — histórico de fills da conta para um símbolo."""
+        p: dict[str, Any] = {
+            "symbol": symbol.upper(),
+            "limit": max(1, min(int(limit), 1000)),
+        }
+        if from_id is not None:
+            p["fromId"] = int(from_id)
+        return self._request("GET", "/api/v3/myTrades", p)
+
     def new_order(
         self,
         symbol: str,

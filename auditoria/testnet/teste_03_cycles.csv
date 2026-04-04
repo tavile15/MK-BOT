@@ -1,0 +1,2 @@
+﻿ts_utc,loop_cycle,symbol,status,ok,placed_count,cancelled_count,agent_source,spread_bps,order_size_quote_capped,buy_price,sell_price,buy_block_reason,sell_block_reason
+2026-04-03T19:30:18Z,1,BTCUSDT,quoted_placed,True,2,2,agent_heuristic,22.0,50.0,66721.35,66868.31,,

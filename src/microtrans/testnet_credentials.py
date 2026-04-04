@@ -49,6 +49,17 @@ def load_testnet_credentials_from_files() -> None:
             candidates.append(Path(p).expanduser())
     candidates.extend([root / ".env.testnet", root / "config" / ".env.testnet"])
     seen: set[Path] = set()
+    allowed_keys = {
+        "BINANCE_TESTNET_API_KEY",
+        "BINANCE_TESTNET_API_SECRET",
+        "MT_TELEGRAM_ENABLED",
+        "MT_TELEGRAM_BOT_TOKEN",
+        "MT_TELEGRAM_CHAT_ID",
+        "MT_TELEGRAM_THREAD_ID",
+        "MT_TELEGRAM_PREFIX",
+        "MT_TELEGRAM_SEND_REPORT_FILES",
+        "MT_TELEGRAM_HEADER_IMAGE",
+    }
     for path in candidates:
         try:
             path = path.resolve()
@@ -62,7 +73,7 @@ def load_testnet_credentials_from_files() -> None:
         except OSError:
             continue
         for k, v in data.items():
-            if k not in ("BINANCE_TESTNET_API_KEY", "BINANCE_TESTNET_API_SECRET") or not v:
+            if k not in allowed_keys or not v:
                 continue
             cur = os.environ.get(k, "")
             if isinstance(cur, str) and cur.strip():

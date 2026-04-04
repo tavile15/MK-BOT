@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "ok": true,
+    "symbol": "BTCUSDT",
+    "interval_sec": 2.0,
+    "max_cycles": 1,
+    "force_heuristic": true,
+    "relax_liquidity": true,
+    "run_label": "FOTO",
+    "jsonl_out": "auditoria\\testnet\\foto_20260404_190456.jsonl",
+    "end_reason": "max_cycles_reached",
+    "cycles": 1,
+    "ok_rows": 1,
+    "error_rows": 0,
+    "quoted_cycles": 0,
+    "quoted_placed_cycles": 0,
+    "quoted_blocked_cycles": 0,
+    "placed_orders_total": 0,
+    "cancelled_orders_total": 0,
+    "blocked_kill_switch_cycles": 0,
+    "status_counts": {
+      "no_quote_filter_or_params": 1
+    }
+  },
+  "soak_report": {
+    "ok": true,
+    "path": "auditoria\\testnet\\foto_20260404_190456.jsonl",
+    "rows": 1,
+    "quoted_cycles": 0,
+    "quoted_placed_cycles": 0,
+    "quoted_blocked_cycles": 0,
+    "blocked_kill_switch_cycles": 0,
+    "blocked_allowlist_cycles": 0,
+    "no_quote_cycles": 1,
+    "error_rows": 0,
+    "placed_orders_total": 0,
+    "cancelled_orders_total": 0,
+    "buy_orders_total": 0,
+    "sell_orders_total": 0,
+    "first_ts_utc": "2026-04-04T19:05:03Z",
+    "last_ts_utc": "2026-04-04T19:05:03Z",
+    "status_counts": {
+      "no_quote_filter_or_params": 1
+    },
+    "last_cycle": {
+      "loop_cycle": 1,
+      "status": "no_quote_filter_or_params",
+      "placed_count": null,
+      "cancelled_count": 0,
+      "symbol": "BTCUSDT"
+    }
+  },
+  "pnl_real_fills": {
+    "ok": true,
+    "symbol": "BTCUSDT",
+    "fills_count": 0,
+    "orders_count": 0,
+    "delta_quote": 0.0,
+    "delta_base": 0.0,
+    "mark_price": 0.0,
+    "pnl_robot_total_quote": 0.0,
+    "quote_asset": "USDT",
+    "base_asset": "BTC"
+  }
+}

@@ -15,10 +15,10 @@ Documento vivo: **atualizar ao fim de cada sessão/prompt** com data, decisões 
 | **P2 — Operação manual + vigência (UI)** | Tick único, vigília, auditoria/CSV, UI sem bloqueio longo | **Concluído + reforçado** (fragment, estado limpo, `book_top` default) |
 | **P3 — Inteligência** | Agente LLM opcional, calibração | **Protótipo avançado** — Gemini (`gemini-2.5-flash`), `agent_gemini` + piso `gemini_min_spread_bps`; snapshot rico (`execution` no contrato v2); evidência `auditoria_ticks.csv` / LOG12 |
 | **P3b — Backtest reprodutível + auditoria BT** | Replay explícito, relatório dedicado, registo de decisões do agente, stress no papel | **Concluído** (2026-03-29) — evidência em `auditoria/backtest/stress_batch_20260329_224438.csv` + `bt_run_id` d09a6c6404e8 / 67d73e87704c / e6c6e3e2e5a5. |
-| **P4t — Spot Testnet (pré-live)** | REST assinado, ordens LIMIT na rede de testes Binance, soak 24/7, auditoria de fills | **Em andamento** (2026-03-29) — `binance_signed` + `binance_testnet_cli` + `execution` no YAML; próximo: **executor** (motor → ordens) + processo 24/7 + caps de risco. |
+| **P4t — Spot Testnet (pré-live)** | REST assinado, ordens LIMIT na rede de testes Binance, soak 24/7, auditoria de fills | **Em andamento** (2026-03-31) — TestnetView com start/stop, limpeza de logs, risco de sessão (banca/meta/stop), PnL mark-to-market + PnL real por fills; pendente: fechar lacunas de auditoria para go/no-go live. |
 | **P4 — Execução real (live)** | Mesma stack com URL + keys **live**, política de risco, compliance | **Bloqueado** até gate ao fim do soak P4t + checklist escrito. |
 
-**Síntese:** **P3b fechado.** **Prioridade atual:** **P4t (Testnet)** como validação final com ordens reais na API de testes e saldo fictício da Binance; soak **24/7** com logs e kill switch. **Em paralelo (menor prioridade):** Frente 6 (IA) com corpus P3b. **P4 live** só após P4t estável e checklist de risco.
+**Síntese:** **P3b fechado.** **Prioridade atual:** **P4t (Testnet)** com foco em execução real auditável (fills), risco por sessão e consistência do PnL do robô. **Em paralelo (menor prioridade):** Frente 6 (IA) com corpus P3b. **P4 live** só após P4t estável + checklist de risco + evidência de unit economics.
 
 ---
 
@@ -43,7 +43,7 @@ Documento vivo: **atualizar ao fim de cada sessão/prompt** com data, decisões 
 | **P4t-2 Dados alinhados** | `BinancePublic(base_url=testnet)` para klines/depth no **mesmo** universo que as ordens (já suportado via `execution.testnet_base_url` em código novo). | `binance_testnet_cli ping` e `book --symbol BTCUSDT` OK. |
 | **P4t-3 Ordens mínimas** | Usar `BinanceSigned.new_order` / `cancel_order` em script controlado (1 LIMIT longe do mercado + cancel) ou expandir CLI com subcomando protegido. | Uma ordem criada e cancelada no testnet sem erro de assinatura/filters. |
 | **P4t-4 Executor** | Camada que traduz decisões do motor (spread, tamanho, ciclo) em **post/cancel** de LIMIT maker, com **notional máximo**, **símbolo allowlist**, **kill switch** (ficheiro ou env). | Documento curto no código + teste manual em par único. |
-| **P4t-5 Loop 24/7** | Processo dedicado (não só Streamlit): systemd/Docker/VPS, rotação de log, alerta se o processo morrer. | 48–72 h contínuas sem intervenção, métricas básicas (ordens, fills, erros API). |
+| **P4t-5 Loop 24/7** | Processo dedicado (não só Streamlit): systemd/Docker/VPS, rotação de log, alerta se o processo morrer; **acompanhamento remoto por celular** (status, PnL, incidentes) com acesso protegido por login. | 48–72 h contínuas sem intervenção, métricas básicas (ordens, fills, erros API), consulta remota funcional e acesso autenticado. |
 | **P4t-6 Soak + relatório** | Comparar PnL/posição testnet vs expectativa do papel; lista de incidentes (resets testnet, rate limit). | Relatório de 1 página no changelog ou `teste/` com recomendação go/no-go **live**. |
 | **P4 live (gate)** | Trocar `base_url` + keys **live**, limites mais estritos, confirmação legal/tributária. | Checklist explícito assinado (mesmo que só interno). |
 
@@ -169,6 +169,157 @@ Saída esperada: `auditoria\backtest\stress_batch_*.csv` (+ opcionalmente `*_aud
 ---
 
 ## Changelog (sessões)
+
+### 2026-04-03 — Revisão de barreiras de teste multi-ativo (Vigília + Testnet)
+
+- **Problema reportado:** vigília falhando ao iniciar em alguns ambientes e executor testnet bloqueando pares fora de BTCUSDT.
+- **Ajuste 1 (Vigília):** adicionado modo compatível no `app.py` quando `st.fragment` não estiver disponível; a vigília continua por `rerun` controlado, sem desligamento automático da sessão.
+- **Ajuste 2 (Testnet multi-ativo):** removida trava fixa de símbolo em `config/default.yaml` (`execution.allow_symbols: []`), permitindo testar SOLUSDT, WIFUSDT, PEPEUSDT e outros pares válidos no testnet.
+- **Impacto esperado na carteira simulada/plano:** amplia cobertura de cenários para gerar base comparativa real da **Frente 7**, reduzindo viés de decisão por amostra única em BTCUSDT.
+- **Critério de uso seguro:** manter `max_notional_quote_per_order`, kill switch e revisão de `symbol_not_found` para pares não suportados pela corretora.
+
+### 2026-04-03 — Validação de 3 testes (1h cada, 240 ciclos) + estado de negócio
+
+- **Evidências recebidas:** `TESTE 01.01 1 HORA.json/.csv`, `Teste 02 - 1 hora.json/.csv`, `TESTE 03.json/.csv`.
+- **Consolidado operacional (3h):**
+  - `rows` totais: **720**;
+  - `placed_orders_total`: **0**;
+  - `quoted_placed_cycles`: **0**;
+  - `error_rows`: **240** (todos no Teste 02 por `blocked_allowlist` em `SOLUSD`);
+  - `no_quote_cycles`: **480** (Teste 01 + Teste 03, `no_quote_filter_or_params` em `BTCUSDT`).
+- **Leitura para carteira simulada/testnet:** não houve execução efetiva, logo PnL operacional do robô ficou travado em ~zero nas 3 janelas.
+- **Conclusão de etapa:** robustez de loop/UI/telemetria segue OK, mas **unit economics ainda não validada** para go/no-go live.
+- **Ação de clareza entregue:** rótulo da tabela humana do soak ajustado para distinguir `blocked_allowlist`, `blocked_kill_switch`, `quoted_blocked_min_notional_balance` e `no_quote_filter_or_params` (evita leitura enganosa de “cotação enviada”).
+- **Onde estamos no plano:** continuamos em **P4t-6 (fechamento de relatório)**; próximo passo é consolidar parecer formal com recomendação econômica e abrir **Frente 7 (estratégia)**.
+- **Parecer formal emitido:** ver `RELATORIO_P4T6_2026-04-03.md` (GO operacional em P4t + NO-GO econômico para P4 live neste momento).
+
+### 2026-04-03 — Notificação Telegram reforçada com anexos de validação
+
+- `executor-loop` passou a enviar, no fim de cada soak, além da mensagem de resumo:
+  - ficheiro `*_report.json` (sumário + relatório + PnL por fills);
+  - ficheiro `*_cycles.csv` (linhas por ciclo para validação rápida).
+- Implementado envio de documentos via Telegram (`sendDocument`) com fallback resiliente.
+- Flag de controlo adicionada: `MT_TELEGRAM_SEND_REPORT_FILES` (default `1`).
+
+### 2026-04-03 — Ajustes finais do redesign (identidade + UX)
+
+- **Identidade visual consolidada:** branding visual atualizado para **MK BOT - MARKET MAKING** com assinatura do mascote (lobo) no topo/login/menu.
+- **UX finalizada no fluxo novo:** sidebar como hub puro de navegação + atalhos diretos na Tela Inicial para Backtest, Vigília e OP, Testnet e Logs.
+- **Acabamento visual:** botões e cards refinados para leitura mais clara (sem alteração de regras de operação).
+- **Regra anti-regressão mantida:** nenhuma alteração no motor, executor, filtros, contratos de auditoria/CSV/JSONL.
+
+### 2026-04-03 — Guardrails de redesign UI (sem regressão funcional) + identidade MK BOT
+
+- **Decisão de produto:** avançar com redesign completo de UX/UI (login, home resumo, sidebar-hub, páginas dedicadas) **sem tocar** em funções consolidadas de execução.
+- **Identidade definida:** nome oficial **MK BOT - MARKET MAKING** + mascote **lobo em pele de cordeiro**; referências visuais centralizadas em `indentidade_visual/`.
+- **Entrega documental:** criado `GUIA_REDESIGN_UI_SEM_REGRESSAO.md` com:
+  - escopo permitido/proibido;
+  - fluxo alvo por página;
+  - ordem de implementação segura;
+  - checklist anti-regressão;
+  - roteiro de testes A/B/C para validação antes de deploy.
+- **Regra de priorização mantida:** P4t-6 (soak + relatório go/no-go) continua prioridade de negócio; redesign segue em paralelo sem alterar comportamento da carteira simulada/testnet.
+
+### 2026-04-01 — Decisão operacional: P4t em nuvem + autenticação (arranque imediato)
+
+- **Incidente operacional:** soak local noturno interrompido por instabilidade/energia/hibernação do PC; impacto = janela de validação P4t incompleta.
+- **Decisão de infraestrutura (custo-benefício + futuro live):** usar **VPS Hetzner** como base única já para P4t e depois P4 (evita migração dupla).
+- **Decisão de segurança:** antes de expor a UI na internet, ativar **login obrigatório** (sem acesso público aberto).
+- **Regra de execução mantida:** primeiro fechar **P4t-6** em nuvem (soak + relatório go/no-go); só depois abrir ajustes de estratégia para lucro maior.
+- **Plano de arranque (D+1):**
+  1. provisionar VPS + deploy do projeto + secrets testnet;
+  2. subir UI com autenticação e acesso via celular;
+  3. rodar soak 24/7 em testnet com JSONL persistente;
+  4. emitir relatório P4t-6 com recomendação formal.
+
+### 2026-04-01 — Entrega inicial de segurança e operação em nuvem
+
+- **Login no app implementado:** `app.py` agora suporta bloqueio por credenciais (`MT_UI_LOGIN_REQUIRED`, `MT_UI_LOGIN_USER`, `MT_UI_LOGIN_PASSWORD` ou hash SHA256), com suporte também a `st.secrets`.
+- **Objetivo:** impedir acesso público ao painel quando publicado em VPS.
+- **Operação documentada:** criado `DEPLOY_HETZNER_CHECKLIST.md` com passo a passo de deploy, soak 24/7 e relatório.
+
+### 2026-04-01 — Ajuste operacional: reduzir digitação manual no terminal
+
+- **Estado atual da implantação:** VPS criado e acesso SSH funcional; bloqueio observado foi fricção operacional (repo remoto vazio e muitos comandos manuais).
+- **Decisão de execução:** manter o plano P4t em nuvem, mas automatizar setup para reduzir erro humano.
+- **Entrega:** script `scripts/setup_hetzner_remote.ps1` (Windows) para copiar projeto local + preparar ambiente remoto + validar `doctor/account` em fluxo único.
+- **Impacto no negócio/carteira simulada:** acelera entrada em soak 24/7, reduzindo atraso na coleta de evidência para P4t-6 (go/no-go).
+
+### 2026-04-02 — Revisão de estratégia operacional: soak não pode depender de aba aberta
+
+- **Problema identificado:** operar o soak via UI gera percepção de dependência do navegador/sessão, inadequado para rotina profissional 24/7.
+- **Decisão:** desacoplar execução do soak da interface; UI passa a ser monitoramento/controle, não ponto único de execução.
+- **Entrega:** scripts `scripts/soak_start.sh`, `scripts/soak_stop.sh`, `scripts/soak_status.sh` para rodar executor em background no servidor.
+- **Regra prática:** para validação P4t-6, iniciar soak pelos scripts (ou tmux/systemd), podendo fechar navegador sem interromper ciclos.
+
+### 2026-04-02 — Fecho de etapa operacional: UI como serviço do servidor (systemd)
+
+- **Objetivo de operação:** eliminar dependência de terminal para manter a UI disponível ao celular.
+- **Decisão:** configurar `streamlit app.py` como serviço `systemd` com restart automático.
+- **Resultado esperado:** servidor reinicia e a UI volta sozinha; uso diário fica "abrir celular -> iniciar/acompanhar -> baixar relatório".
+- **Próximo passo de produto após este fecho:** executar soak de 6h com processo desacoplado + emitir relatório P4t-6 (go/no-go).
+
+### 2026-04-03 — Resultado do teste longo (Testnet nuvem) + correção do stop
+
+- **Evidência recebida:** `TESTE LONGO.json` + `TESTE LONGO.csv`.
+- **Números principais:** `rows=2546` (~10h36 em 15s), `quoted_placed=470`, `no_quote=2071`, `error_rows=5`, `placed_orders_total=940`.
+- **Leitura de negócio:** infraestrutura 24/7 validada (coleta longa estável), mas com alta taxa de ciclos sem cotação (~81%), limitando tração de lucro.
+- **Achado operacional:** botão **Parar teste** na UI podia falhar quando o processo não estava mais no `session_state`.
+- **Correção aplicada:** `src/microtrans/ui/pages.py` agora:
+  - grava/usa PID file (`runtime/soak_executor.pid`);
+  - impede iniciar soak duplicado quando já existe processo ativo;
+  - para soak por PID mesmo após refresh/reabertura da UI.
+- **Impacto no plano:** P4t-6 avança com confiança operacional; próximo passo lógico mantém foco em relatório go/no-go e, em seguida, ajuste de estratégia de MK (Frente 7).
+
+### 2026-03-31 — Revisão técnica + P4t UI (risco/fills) + pendências críticas
+
+- **Entregue no TestnetView:** start/stop soak, limpeza de logs/JSONL, linha do tempo humana, PnL teórico por ciclo, download CSV de auditoria resumida, integração da carteira testnet com o painel.
+- **Entregue em risco/PnL:** gestão de sessão via UI (banca, risco por ordem, meta, stop), override de `max_notional` no CLI executor, cálculo de **PnL real do robô por fills** (`myTrades`) no card da carteira testnet.
+- **Entregue em IA/Testnet:** provedor do agente voltou a ficar explícito na UI/Testnet (heurístico vs Gemini), com opção de forçar heurística.
+- **Achado da revisão (crítico):** o executor podia retornar `status=quoted` mesmo com `placed_count=0` quando as ordens não passavam em `min_notional/saldo`; isso confundia leitura operacional e mascarava “não execução” (corrigido em 2026-03-31 com `quoted_placed` vs `quoted_blocked_min_notional_balance`).
+- **Achado da revisão (alto):** PnL real por fills usava `myTrades(limit=1000)` sem paginação por `fromId`; em corridas longas podia subcontabilizar fills antigos (corrigido em 2026-03-31 com paginação completa).
+- **Achado da revisão (alto):** na UI havia desvio de percepção entre “banca maior” e tamanho efetivo da ordem; a auditoria mostrou `ordem_quote_aprox` fixa em 5 em vários testes, o que leva a lucro quase nulo mesmo com muitas ordens postadas.
+- **Decisão de produto:** manter **P4t (Testnet)** como prioridade imediata até fechar o relatório P4t-6 (go/no-go), e **postergar o ajuste fino da estratégia de market making** (tamanho de ordem, metas de lucro, espaçamento de spread) para um epic dedicado **após** P4t-6.
+- **Próximo passo oficial (ordem lógica):**
+  1. rodar soak(s) controlados com o executor corrigido (2h–6h) e consolidar relatório P4t-6;
+  2. emitir recomendação formal go/no-go P4t (incluindo constatação de lucro quase nulo nos cenários atuais);
+  3. abrir epic **“Frente 7 — Estratégia de operação (market making)”** para estudar e ajustar política de lucro (não-irrisório) com base nas evidências de Testnet e P3b.
+
+### 2026-03-31 — Decisão de produto: operação remota + acompanhamento por celular (sem quebrar ordem do plano)
+
+- **Ideia aprovada:** permitir testes Testnet remotos em servidor (VPS) com monitorização por celular, para não depender de PC local durante horário de trabalho.
+- **Alinhamento com plano:** encaixa em **P4t-5** (loop 24/7 dedicado) e **não** antecipa P4 live.
+- **Regra de priorização mantida:** primeiro fechar **P4t-6** (soak 2h–6h + relatório go/no-go), depois implementar camada remota/mobile.
+- **Escopo alvo da camada mobile (após P4t-6):** start/stop remoto, leitura de status do ciclo, PnL real por fills, alertas de erro/kill switch/meta/stop.
+
+### 2026-03-31 — Repaginação total da UI (híbrida) concluída
+
+- **Design system híbrido aplicado:** atualização forte de `src/microtrans/ui/theme.py` (tokens, topbar, cards, KPI grid, badges, inputs/botões com hierarquia visual limpa).
+- **Sidebar full UX reorganizada:** `src/microtrans/ui/sidebar.py` agora separa em blocos claros: Navegação → Operação em papel → Motor/Risco → Automação → Laboratório (Backtest/Testnet), mantendo as mesmas chaves de `session_state`.
+- **Tela principal redesenhada:** `src/microtrans/ui/chrome.py` ganhou topbar e o painel ficou com leitura executiva primeiro (KPIs, patrimônio, insights) e detalhe técnico depois.
+- **Páginas consistentes:** `src/microtrans/ui/pages.py` padronizada em cards/containers para Painel, Mercado, Carteira, Backtest, Testnet, Auditoria e Logs; logs com filtro rápido (`ui_quick_search`) e auditoria orientada a efeito na carteira simulada.
+- **Compatibilidade funcional preservada:** tick, vigília, replay/backtest, testnet smoke/conta, downloads CSV/JSONL e exportações continuam operacionais.
+
+### 2026-03-31 — P4t-5 hardening: soak resiliente a timeout de rede
+
+- Após incidente real de soak (`Read timed out` em `testnet.binance.vision`), o loop do executor foi reforçado em `src/microtrans/testnet_executor.py`.
+- `run_executor_iter` agora captura exceções por ciclo e registra `status=error_exception` (`error`, `error_type`) sem encerrar o processo.
+- Efeito esperado: soak 24/7 continua rodando mesmo com falhas transitórias de rede/API, mantendo trilha para análise P4t-6.
+
+### 2026-03-30 — P4t-5/P4t-6 (reforço): soak JSONL + relatório automático
+
+- `binance_testnet_cli executor-loop` agora grava 1 linha por ciclo em JSONL (`--jsonl-out`, default `auditoria/testnet/executor_loop.jsonl`) e imprime resumo final de soak.
+- Novo comando `python -m microtrans.binance_testnet_cli executor-report --input-jsonl ...` para sumarizar ciclos quoted/no-quote, ordens postadas/canceladas, bloqueios (kill switch/allowlist) e erros.
+- Novo módulo `src/microtrans/testnet_soak_report.py` (resumo P4t-6 baseado no JSONL do executor).
+- O loop do executor foi ajustado para modo iterativo (`run_executor_iter`) para suportar corrida longa sem acumular memória em lista.
+
+### 2026-03-30 — P4t-4/P4t-5 (primeira versão): executor testnet + loop contínuo com limites
+
+- **Novo módulo:** `src/microtrans/testnet_executor.py` com `run_executor_once` e `run_executor_loop`.
+- **Fluxo executor:** usa o `MarketMakingEngine` para obter `spread_bps`/`order_size_quote`, cancela ordens antigas do símbolo e publica LIMIT maker (`BUY`/`SELL` quando saldo/filtros permitem).
+- **Risco operacional (YAML):** `execution.max_notional_quote_per_order`, `execution.allow_symbols`, `execution.kill_switch_file`.
+- **CLI:** `python -m microtrans.binance_testnet_cli executor-once --symbol BTCUSDT --force-heuristic` e `executor-loop --symbol BTCUSDT --interval-sec 15 --max-cycles 0 --force-heuristic`.
+- **Comportamento de segurança:** se kill switch estiver armado, o executor não publica novas ordens (`status=blocked_kill_switch`).
 
 ### 2026-03-29 — P4t Spot Testnet: kickoff (REST assinado + plano)
 

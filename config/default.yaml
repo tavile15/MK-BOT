@@ -9,7 +9,13 @@ execution:
   mode: paper
   testnet_base_url: "https://testnet.binance.vision"
   recv_window_ms: 5000
-  # Próximos: max_notional_quote_per_order, kill_switch_file, allow_symbols: []
+  # P4t valida execução de ordens; manter true evita bloqueio por book "grande demais" em majors.
+  testnet_relax_liquidity_filter: true
+  # Limites do executor P4t (testnet): reduzem risco operacional no soak.
+  max_notional_quote_per_order: 50
+  kill_switch_file: "runtime/kill_switch_testnet.txt"
+  # Lista vazia = sem bloqueio de símbolo no executor testnet (permite explorar pares diversos).
+  allow_symbols: []
 
 filters:
   kline_interval: "5m"
