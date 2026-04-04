@@ -1,0 +1,200 @@
+2026-03-29 11:34:44,919 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:44,919 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:44,919 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:44,919 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:44,919 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:44,968 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:44,968 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:44,968 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:44,968 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:44,968 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:45,659 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:45,659 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:45,659 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:45,659 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:45,659 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+BACKTEST ok | Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+2026-03-29 11:34:53,002 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:53,002 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:53,002 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:53,002 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:53,002 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:53,635 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:53,635 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:53,635 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:53,635 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:53,635 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:53,681 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:53,681 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:53,681 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:53,681 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:53,681 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:54,354 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:54,354 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:54,354 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:54,354 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:54,354 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+BACKTEST ok | Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+2026-03-29 11:34:56,506 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:56,506 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:56,506 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:56,506 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:56,506 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4284 | patrimonio atual (quote): 9999.5716
+2026-03-29 11:34:57,114 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:57,114 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:57,114 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:57,114 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:57,114 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4537
+2026-03-29 11:34:57,163 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:57,163 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:57,163 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:57,163 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:57,163 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4284
+2026-03-29 11:34:57,852 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:57,852 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:57,852 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:57,852 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:34:57,852 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+BACKTEST ok | Carteira SOLUSDT: 9997.5043 USDT + 0.00000000 SOL ~ patrimônio 9997.5043 USDT (PnL vs início: -2.4957, taxas: 19.7172, operações: 788)
+2026-03-29 11:35:16,127 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:16,127 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:16,127 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:16,127 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:16,127 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:16,724 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:16,724 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:16,724 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:16,724 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:16,724 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:16,772 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:16,772 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:16,772 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:16,772 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:16,772 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:17,427 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:17,427 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:17,427 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:17,427 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:17,427 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+BACKTEST ok | Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+2026-03-29 11:35:20,540 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:20,540 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:20,540 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:20,540 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:20,540 | filter | Fim do ciclo 1 | motivo: filters_failed | PnL do ciclo (quote): -0.4106 | patrimonio atual (quote): 9999.5894
+2026-03-29 11:35:21,139 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:21,139 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:21,139 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:21,139 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:21,139 | filter | Fim do ciclo 2 | motivo: filters_failed | PnL do ciclo (quote): -1.1178 | patrimonio atual (quote): 9998.4715
+2026-03-29 11:35:21,183 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:21,183 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:21,183 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:21,183 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:21,183 | filter | Fim do ciclo 3 | motivo: filters_failed | PnL do ciclo (quote): -0.0253 | patrimonio atual (quote): 9998.4462
+2026-03-29 11:35:21,858 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:21,858 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:21,858 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:21,858 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+2026-03-29 11:35:21,858 | filter | === Backtest concluído: SOLUSDT ===
+Barras: 500 | passos simulados: 440 | ciclos registrados pelo motor: 4
+Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)
+(Nota: esta carteira é só do backtest; a carteira da UI ‘ao vivo’ é outra instância.)
+===
+BACKTEST ok | Carteira SOLUSDT: 9997.5166 USDT + 0.00000000 SOL ~ patrimônio 9997.5166 USDT (PnL vs início: -2.4834, taxas: 19.7172, operações: 788)

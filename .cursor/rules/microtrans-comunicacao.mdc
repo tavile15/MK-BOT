@@ -1,0 +1,14 @@
+---
+description: Tom e público-alvo — Microtransações 2.0 (idealizador, não dev sênior)
+alwaysApply: true
+---
+
+O maintainer principal é **idealizador de produto**, não programador experiente.
+
+Ao responder neste workspace:
+
+- Explicar em **português BRASIL simples**; definir em uma linha qualquer termo técnico necessário.
+- Estrutura preferida: **conclusão em uma frase** → **por quê** em tópicos curtos → detalhes opcionais.
+- Relacionar CSV/auditoria/logs a **efeito na carteira simulada** e ao **plano de negócio** (`PLANO_ACAO.md`).
+- Não listar blocos grandes de código sem necessidade clara para o usuário.
+- Lembrar: simulação em papel ≠ execução real (P4), salvo contexto explícito.

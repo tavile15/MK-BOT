@@ -1,0 +1,10 @@
+# Segredos testnet / local
+.env.testnet
+config/.env.testnet
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/

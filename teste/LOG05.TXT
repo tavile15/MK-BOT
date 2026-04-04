@@ -1,0 +1,1927 @@
+2026-03-29 11:55:02,361 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,357,422  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.83
+Volume 24h (quote, API): 107,646,443
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5357422 > 250000.0
+===
+2026-03-29 11:55:02,361 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,357,422  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.83
+Volume 24h (quote, API): 107,646,443
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5357422 > 250000.0
+===
+2026-03-29 11:55:02,361 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,357,422  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.83
+Volume 24h (quote, API): 107,646,443
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5357422 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+2026-03-29 11:55:04,163 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,832,034  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,648,237
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4832034 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+2026-03-29 11:55:05,851 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,847,550  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,647,228
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4847550 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+2026-03-29 11:55:07,578 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 4,851,672  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,850
+
+Motivos do bloqueio:
+  - liquidity_too_high: 4851672 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+2026-03-29 11:55:09,146 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,153,016  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.87
+Volume 24h (quote, API): 107,642,880
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5153016 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+2026-03-29 11:55:10,562 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,142,226  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,642,388
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5142226 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+2026-03-29 11:55:11,604 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,464  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,542
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138464 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+2026-03-29 11:55:12,635 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,133,278  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,643,042
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5133278 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+2026-03-29 11:55:13,772 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,138,881  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,130
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5138881 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+2026-03-29 11:55:15,409 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,158,878  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.85
+Volume 24h (quote, API): 107,641,621
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5158878 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+2026-03-29 11:55:16,872 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,159,747  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.86
+Volume 24h (quote, API): 107,641,355
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5159747 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+2026-03-29 11:55:21,689 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,313,898  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5313898 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+2026-03-29 11:55:23,331 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 5,314,653  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.13  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 20.6  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.195%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.84
+Volume 24h (quote, API): 107,637,313
+
+Motivos do bloqueio:
+  - liquidity_too_high: 5314653 > 250000.0
+===
+TICK | apt=não | Carteira SOLUSDT: 10001.2026 USDT + 0.00000000 SOL ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)

@@ -1,0 +1,93 @@
+binance:
+  base_url: "https://api.binance.com"
+  recv_window_ms: 5000
+
+# Execução na corretora (P4). Hoje: cliente assinado + CLI smoke no **Spot Testnet** apenas.
+# Chaves testnet: BINANCE_TESTNET_API_KEY e BINANCE_TESTNET_API_SECRET (nunca no repositório).
+execution:
+  # paper | testnet | live — só `paper` está ligado ao motor/UI; testnet usa módulos dedicados + CLI até o executor 24/7.
+  mode: paper
+  testnet_base_url: "https://testnet.binance.vision"
+  recv_window_ms: 5000
+  # Próximos: max_notional_quote_per_order, kill_switch_file, allow_symbols: []
+
+filters:
+  kline_interval: "5m"
+  kline_limit: 120
+  depth_limit: 100
+  # true = não bloqueia por min/max de soma no book (senão BTC/SOL sempre barrados — veja LOGTESTE02)
+  relax_liquidity_filter: false
+  # Liquidez: soma notionals dos N melhores níveis (quote) deve ficar na faixa (se relax=false)
+  max_liquidity_quote_usd: 250000
+  min_liquidity_quote_usd: 5000
+  # Lateral: range recente / ATR (ajuste por par — majors tendem a estourar o teto)
+  range_atr_ratio_max: 14.0
+  range_atr_ratio_min: 0.5
+  # ADX aproximado (Wilder) — abaixo = menos tendência
+  adx_period: 14
+  adx_max: 42
+  # Volatilidade relativa (ATR% do preço)
+  atr_period: 14
+  atr_pct_min: 0.05
+  atr_pct_max: 1.2
+
+engine:
+  poll_interval_sec: 15
+  exit_drawdown_pct: 3.0
+  # Meta de lucro do ciclo (patrimonio vs início do ciclo). 0 = desliga.
+  exit_take_profit_pct: 0
+  exit_take_profit_quote: 0
+  # Quando filtros deixam de ser "aptos", encerra ciclo
+  require_filters_for_continue: true
+  # No papel, spread precisa cobrir ~2x fee (compra+venda em quote). Sem isso o robô tende a só perder taxas.
+  enforce_min_spread_for_fees: true
+  paper_spread_cushion_bps: 2.0
+  # Papel: book_top = melhor bid/ask reais (padrão para testar slippage seguro); synthetic_mid = mid ± spread.
+  paper_pricing: book_top
+  # book_top: não executa volta se o líquido estimado (spread − taxas) < 0 — majors têm spread microscópico vs fee 10 bps.
+  paper_skip_unprofitable_book_roundtrip: true
+  paper_slippage_bps: 0
+  # 1.0 = sempre preenche; menor que 1 = sorteio determinístico por tick (reproduzível no mesmo histórico).
+  paper_fill_probability: 1.0
+
+agent:
+  # heuristic | gemini — chave: GEMINI_API_KEY ou GOOGLE_API_KEY (UI pode sobrescrever o provedor)
+  # Gemini: no máximo 1 chamada HTTP por abertura de ciclo (`gemini_budget_exhausted` no estado do motor)
+  provider: heuristic
+  gemini_model: gemini-2.5-flash
+  # Piso de spread após resposta Gemini (prompt + clamp) — alinhado a taxas do backtest (~10 bps perna).
+  gemini_min_spread_bps: 15
+  # Placeholder até plugar LLM: só ajusta parâmetros com base no snapshot
+  default_spread_bps: 8
+  default_order_size_quote: 50
+  max_inventory_pct: 0.15
+  # Limites aplicados em finalize_agent_payload (gate antes do motor)
+  bounds:
+    spread_bps_min: 2
+    spread_bps_max: 250
+    order_size_quote_min: 5
+    order_size_quote_max: 5000
+
+backtest:
+  fee_bps: 10
+  # Replay: quantidade de velas (as mais recentes). UI pode alterar; teto de segurança em max_bars.
+  default_bars: 500
+  max_bars: 20000
+  # Pausa entre pedidos paginados de klines (seg). 0 = rápido; 0.05–0.1 se a API limitar taxa.
+  klines_pagination_pause_sec: 0
+  # Durante o replay, copiado para engine.paper_slippage_bps (antes era ignorado).
+  slippage_bps: 5
+  initial_quote: 10000
+  min_synthetic_liq: 8000
+  # null = spread total do livro sintético auto: ~ 2*fee_bps + paper_spread_cushion + 2*slippage + margem
+  # (evita book_top com ~2 bps e taxas 10+10 bps, onde toda volta perde por construção).
+  synthetic_book_spread_bps: null
+  # Opcional: sobrescreve só no backtest engine.paper_skip_unprofitable_book_roundtrip (omitir = usa engine)
+  # paper_skip_unprofitable_book_roundtrip: true
+  # Presets nomeados (UI: select “stress”). Valores sobrescrevem chaves de `backtest` só naquela corrida.
+  stress_presets:
+    baseline: {}
+    livro_apertado:
+      synthetic_book_spread_bps: 12
+    taxas_altas:
+      fee_bps: 18

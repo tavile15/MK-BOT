@@ -1,0 +1,790 @@
+2026-03-29 14:06:57,449 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10010.7058
+2026-03-29 14:06:57,449 | agent | Papel (synthetic_mid): compra 65174.1699, venda 67834.3401 | margem bruta 102.040816 quote, taxas 5.102041, liquido 96.938776 quote
+2026-03-29 14:06:57,449 | agent | Papel (synthetic_mid): compra 65174.1699, venda 67834.3401 | margem bruta 102.040816 quote, taxas 5.102041, liquido 96.938776 quote
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:08:04,980 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 332,180  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,521.23
+Volume 24h (quote, API): 500,975,170
+
+Motivos do bloqueio:
+  - liquidity_too_high: 332180 > 250000.0
+===
+2026-03-29 14:08:04,980 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 332,180  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,521.23
+Volume 24h (quote, API): 500,975,170
+
+Motivos do bloqueio:
+  - liquidity_too_high: 332180 > 250000.0
+===
+TICK | apt=não | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:08:08,292 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 286,536  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,521.23
+Volume 24h (quote, API): 500,968,204
+
+Motivos do bloqueio:
+  - liquidity_too_high: 286536 > 250000.0
+===
+2026-03-29 14:08:08,292 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 286,536  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,521.23
+Volume 24h (quote, API): 500,968,204
+
+Motivos do bloqueio:
+  - liquidity_too_high: 286536 > 250000.0
+===
+TICK | apt=não | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:08:14,368 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 346,093 quote | book_top/vol24h = 0.0691%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,521.23
+Volume 24h (quote, API): 500,963,842
+===
+2026-03-29 14:08:14,368 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 346,093 quote | book_top/vol24h = 0.0691%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,521.23
+Volume 24h (quote, API): 500,963,842
+===
+2026-03-29 14:08:27,282 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:08:27,282 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:08:27,283 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 2.0 bps | ordem ~5000.0 quote | inv max base 0.5 (ATR% ref ~ 0.107). Avisos: ['spread_bps_clamped', 'order_size_quote_clamped']
+===
+2026-03-29 14:08:27,283 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 2.0 bps | ordem ~5000.0 quote | inv max base 0.5 (ATR% ref ~ 0.107). Avisos: ['spread_bps_clamped', 'order_size_quote_clamped']
+===
+2026-03-29 14:08:27,283 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+2026-03-29 14:08:27,283 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:08:35,570 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 300,047 quote | book_top/vol24h = 0.0599%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,518.24
+Volume 24h (quote, API): 500,936,697
+===
+2026-03-29 14:08:35,570 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 300,047 quote | book_top/vol24h = 0.0599%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,518.24
+Volume 24h (quote, API): 500,936,697
+===
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:08:39,645 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 241,217 quote | book_top/vol24h = 0.0482%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,518.23
+Volume 24h (quote, API): 500,936,133
+===
+2026-03-29 14:08:39,645 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 241,217 quote | book_top/vol24h = 0.0482%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,518.23
+Volume 24h (quote, API): 500,936,133
+===
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:09:13,432 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 442,686 quote | book_top/vol24h = 0.0885%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,475,089
+===
+2026-03-29 14:09:13,432 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 442,686 quote | book_top/vol24h = 0.0885%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,475,089
+===
+2026-03-29 14:09:13,433 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_heuristic | Spread: 8.4271 bps | ordem ~50.0 quote | inv max base 0.0003382641 (ATR% ref ~ 0.107).
+===
+2026-03-29 14:09:13,433 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_heuristic | Spread: 8.4271 bps | ordem ~50.0 quote | inv max base 0.0003382641 (ATR% ref ~ 0.107).
+===
+2026-03-29 14:09:13,434 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+2026-03-29 14:09:13,434 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:09:15,533 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 445,046 quote | book_top/vol24h = 0.0889%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,475,316
+===
+2026-03-29 14:09:15,533 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 445,046 quote | book_top/vol24h = 0.0889%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,475,316
+===
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:09:17,177 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 445,373 quote | book_top/vol24h = 0.0890%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,474,958
+===
+2026-03-29 14:09:17,177 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 445,373 quote | book_top/vol24h = 0.0890%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,474,958
+===
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:09:18,864 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 444,702 quote | book_top/vol24h = 0.0889%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,474,756
+===
+2026-03-29 14:09:18,864 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 444,702 quote | book_top/vol24h = 0.0889%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,516.08
+Volume 24h (quote, API): 500,474,756
+===
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:09:35,968 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 472,975 quote | book_top/vol24h = 0.0945%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,520.58
+Volume 24h (quote, API): 500,479,650
+===
+2026-03-29 14:09:35,968 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 472,975 quote | book_top/vol24h = 0.0945%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.51  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 11.0  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.107%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,520.58
+Volume 24h (quote, API): 500,479,650
+===
+2026-03-29 14:09:49,754 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:09:49,754 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:09:49,756 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 15.0 bps | ordem ~5000.0 quote | inv max base 0.5 (ATR% ref ~ 0.107). Avisos: ['order_size_quote_clamped']
+===
+2026-03-29 14:09:49,756 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 15.0 bps | ordem ~5000.0 quote | inv max base 0.5 (ATR% ref ~ 0.107). Avisos: ['order_size_quote_clamped']
+===
+2026-03-29 14:09:49,756 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+2026-03-29 14:09:49,756 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+TICK | apt=sim | Carteira BTCUSDT: 10107.6446 USDT + 0.00000000 BTC ~ patrimônio 10107.6446 USDT (PnL vs início: +107.6446, taxas: 12.7704, operações: 12)
+2026-03-29 14:10:03,983 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 228,697  |  faixa: 5,000 … 250,000  |  OK
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.01  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.099%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,536.84
+Volume 24h (quote, API): 500,425,779
+===
+2026-03-29 14:10:03,983 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 228,697  |  faixa: 5,000 … 250,000  |  OK
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.01  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.099%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,536.84
+Volume 24h (quote, API): 500,425,779
+===
+2026-03-29 14:10:16,093 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:10:16,093 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:10:16,095 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 150.0 bps | ordem ~3000.0 quote | inv max base 0.2 (ATR% ref ~ 0.099).
+===
+2026-03-29 14:10:16,095 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 150.0 bps | ordem ~3000.0 quote | inv max base 0.2 (ATR% ref ~ 0.099).
+===
+2026-03-29 14:10:16,095 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+2026-03-29 14:10:16,095 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10107.6446
+2026-03-29 14:10:16,096 | agent | Papel (synthetic_mid): compra 65538.7825, venda 67534.8875 | margem bruta 45.685279 quote, taxas 3.045685, liquido 42.639594 quote
+2026-03-29 14:10:16,096 | agent | Papel (synthetic_mid): compra 65538.7825, venda 67534.8875 | margem bruta 45.685279 quote, taxas 3.045685, liquido 42.639594 quote
+TICK | apt=sim | Carteira BTCUSDT: 10150.2842 USDT + 0.00000000 BTC ~ patrimônio 10150.2842 USDT (PnL vs início: +150.2842, taxas: 15.8161, operações: 14)
+2026-03-29 14:10:26,820 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 580,364 quote | book_top/vol24h = 0.1160%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.53
+Volume 24h (quote, API): 500,342,160
+===
+2026-03-29 14:10:26,820 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 580,364 quote | book_top/vol24h = 0.1160%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.53
+Volume 24h (quote, API): 500,342,160
+===
+2026-03-29 14:10:37,196 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:10:37,196 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:10:37,197 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 25.0 bps | ordem ~3000.0 quote | inv max base 0.13 (ATR% ref ~ 0.102).
+===
+2026-03-29 14:10:37,197 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 25.0 bps | ordem ~3000.0 quote | inv max base 0.13 (ATR% ref ~ 0.102).
+===
+2026-03-29 14:10:37,197 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10150.2842
+2026-03-29 14:10:37,197 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10150.2842
+2026-03-29 14:10:37,198 | agent | Papel (synthetic_mid): compra 66342.2537, venda 66674.7963 | margem bruta 7.518797 quote, taxas 3.007519, liquido 4.511278 quote
+2026-03-29 14:10:37,198 | agent | Papel (synthetic_mid): compra 66342.2537, venda 66674.7963 | margem bruta 7.518797 quote, taxas 3.007519, liquido 4.511278 quote
+TICK | apt=sim | Carteira BTCUSDT: 10154.7955 USDT + 0.00000000 BTC ~ patrimônio 10154.7955 USDT (PnL vs início: +154.7955, taxas: 18.8236, operações: 16)
+2026-03-29 14:10:47,545 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 308,256  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.52
+Volume 24h (quote, API): 500,317,897
+
+Motivos do bloqueio:
+  - liquidity_too_high: 308256 > 250000.0
+===
+2026-03-29 14:10:47,545 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 308,256  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.52
+Volume 24h (quote, API): 500,317,897
+
+Motivos do bloqueio:
+  - liquidity_too_high: 308256 > 250000.0
+===
+TICK | apt=não | Carteira BTCUSDT: 10154.7955 USDT + 0.00000000 BTC ~ patrimônio 10154.7955 USDT (PnL vs início: +154.7955, taxas: 18.8236, operações: 16)
+2026-03-29 14:10:49,931 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 369,130  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.53
+Volume 24h (quote, API): 500,304,695
+
+Motivos do bloqueio:
+  - liquidity_too_high: 369130 > 250000.0
+===
+2026-03-29 14:10:49,931 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 369,130  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.53
+Volume 24h (quote, API): 500,304,695
+
+Motivos do bloqueio:
+  - liquidity_too_high: 369130 > 250000.0
+===
+TICK | apt=não | Carteira BTCUSDT: 10154.7955 USDT + 0.00000000 BTC ~ patrimônio 10154.7955 USDT (PnL vs início: +154.7955, taxas: 18.8236, operações: 16)
+2026-03-29 14:10:52,276 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 302,329  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.53
+Volume 24h (quote, API): 500,304,407
+
+Motivos do bloqueio:
+  - liquidity_too_high: 302329 > 250000.0
+===
+2026-03-29 14:10:52,276 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: NÃO APTO — motor desligado ou deve encerrar ciclo
+
+1) Liquidez no book (soma bid+ask nos primeiros níveis, proxy em quote):
+    medido: 302,329  |  faixa: 5,000 … 250,000  |  FORA
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,508.53
+Volume 24h (quote, API): 500,304,407
+
+Motivos do bloqueio:
+  - liquidity_too_high: 302329 > 250000.0
+===
+TICK | apt=não | Carteira BTCUSDT: 10154.7955 USDT + 0.00000000 BTC ~ patrimônio 10154.7955 USDT (PnL vs início: +154.7955, taxas: 18.8236, operações: 16)
+2026-03-29 14:10:58,120 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 389,550 quote | book_top/vol24h = 0.0779%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,511.26
+Volume 24h (quote, API): 500,309,538
+===
+2026-03-29 14:10:58,120 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 389,550 quote | book_top/vol24h = 0.0779%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,511.26
+Volume 24h (quote, API): 500,309,538
+===
+2026-03-29 14:11:09,796 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:11:09,796 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:11:09,796 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 2.0 bps | ordem ~2500.0 quote | inv max base 0.2 (ATR% ref ~ 0.102).
+===
+2026-03-29 14:11:09,796 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 2.0 bps | ordem ~2500.0 quote | inv max base 0.2 (ATR% ref ~ 0.102).
+===
+2026-03-29 14:11:09,797 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10154.7955
+2026-03-29 14:11:09,797 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10154.7955
+2026-03-29 14:11:09,797 | agent | Papel (synthetic_mid): compra 66366.3371, venda 66658.9929 | margem bruta 5.512127 quote, taxas 2.505512, liquido 3.006615 quote
+2026-03-29 14:11:09,797 | agent | Papel (synthetic_mid): compra 66366.3371, venda 66658.9929 | margem bruta 5.512127 quote, taxas 2.505512, liquido 3.006615 quote
+TICK | apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+2026-03-29 14:11:21,022 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 327,670 quote | book_top/vol24h = 0.0655%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,510.08
+Volume 24h (quote, API): 500,055,199
+===
+2026-03-29 14:11:21,022 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 327,670 quote | book_top/vol24h = 0.0655%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.81  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 10.7  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.102%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,510.08
+Volume 24h (quote, API): 500,055,199
+===
+2026-03-29 14:11:36,383 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:11:36,383 | agent | Gemini: 1 requisição concluída (gemini-2.5-flash) — orçamento: 1 HTTP por abertura de ciclo.
+2026-03-29 14:11:36,385 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 25.0 bps | ordem ~2500.0 quote | inv max base 0.1 (ATR% ref ~ 0.102).
+===
+2026-03-29 14:11:36,385 | agent | === Agente (contrato v1): BTCUSDT ===
+Proveniência: agent_gemini | Spread: 25.0 bps | ordem ~2500.0 quote | inv max base 0.1 (ATR% ref ~ 0.102).
+===
+2026-03-29 14:11:36,386 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10157.8021
+2026-03-29 14:11:36,386 | agent | Ciclo 1 iniciado | patrimonio inicial do ciclo (quote): 10157.8021
+TICK | apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=1 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=2 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=3 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=4 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+ERRO vigília: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+VIGIL | n=1 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=2 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=3 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=4 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=5 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=6 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=7 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=8 apt=sim | Carteira BTCUSDT: 10157.8021 USDT + 0.00000000 BTC ~ patrimônio 10157.8021 USDT (PnL vs início: +157.8021, taxas: 21.3291, operações: 18)
+VIGIL | n=1 apt=sim | Carteira BTCUSDT: 10160.8087 USDT + 0.00000000 BTC ~ patrimônio 10160.8087 USDT (PnL vs início: +160.8087, taxas: 23.8346, operações: 20)
+VIGIL | n=2 apt=sim | Carteira BTCUSDT: 10163.8153 USDT + 0.00000000 BTC ~ patrimônio 10163.8153 USDT (PnL vs início: +163.8153, taxas: 26.3402, operações: 22)
+VIGIL | n=3 apt=sim | Carteira BTCUSDT: 10166.8219 USDT + 0.00000000 BTC ~ patrimônio 10166.8219 USDT (PnL vs início: +166.8219, taxas: 28.8457, operações: 24)
+VIGIL | n=4 apt=sim | Carteira BTCUSDT: 10169.8285 USDT + 0.00000000 BTC ~ patrimônio 10169.8285 USDT (PnL vs início: +169.8285, taxas: 31.3512, operações: 26)
+VIGIL | n=5 apt=sim | Carteira BTCUSDT: 10172.8351 USDT + 0.00000000 BTC ~ patrimônio 10172.8351 USDT (PnL vs início: +172.8351, taxas: 33.8567, operações: 28)
+ERRO vigília: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

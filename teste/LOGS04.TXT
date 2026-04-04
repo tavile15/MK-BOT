@@ -1,0 +1,892 @@
+2026-03-29 11:44:41,764 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 284,066 quote | book_top/vol24h = 0.0535%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,565.32
+Volume 24h (quote, API): 530,568,177
+===
+2026-03-29 11:44:41,764 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 284,066 quote | book_top/vol24h = 0.0535%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,565.32
+Volume 24h (quote, API): 530,568,177
+===
+2026-03-29 11:44:41,765 | agent | Papel: compra no bid 66418.8713, venda no ask 66711.7587 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:41,765 | agent | Papel: compra no bid 66418.8713, venda no ask 66711.7587 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:41,765 | agent | Papel: compra no bid 66418.8713, venda no ask 66711.7587 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:41,765 | agent | Papel: compra no bid 66418.8713, venda no ask 66711.7587 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:41,765 | agent | Papel: compra no bid 66418.8713, venda no ask 66711.7587 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:41,765 | agent | Papel: compra no bid 66418.8713, venda no ask 66711.7587 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10000.7817 USDT + 0.00000000 BTC ~ patrimônio 10000.7817 USDT (PnL vs início: +0.7817, taxas: 0.6514, operações: 26)
+2026-03-29 11:44:43,796 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 285,355 quote | book_top/vol24h = 0.0538%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,571,282
+===
+2026-03-29 11:44:43,796 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 285,355 quote | book_top/vol24h = 0.0538%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,571,282
+===
+2026-03-29 11:44:43,796 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 285,355 quote | book_top/vol24h = 0.0538%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,571,282
+===
+2026-03-29 11:44:43,796 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 285,355 quote | book_top/vol24h = 0.0538%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,571,282
+===
+2026-03-29 11:44:43,796 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 285,355 quote | book_top/vol24h = 0.0538%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,571,282
+===
+2026-03-29 11:44:43,796 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 285,355 quote | book_top/vol24h = 0.0538%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,571,282
+===
+2026-03-29 11:44:43,797 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:43,797 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:43,797 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:43,797 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:43,797 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:43,797 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10000.8419 USDT + 0.00000000 BTC ~ patrimônio 10000.8419 USDT (PnL vs início: +0.8419, taxas: 0.7015, operações: 28)
+2026-03-29 11:44:45,559 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,114 quote | book_top/vol24h = 0.0409%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,563,924
+===
+2026-03-29 11:44:45,559 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,114 quote | book_top/vol24h = 0.0409%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,563,924
+===
+2026-03-29 11:44:45,559 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,114 quote | book_top/vol24h = 0.0409%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,563,924
+===
+2026-03-29 11:44:45,559 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,114 quote | book_top/vol24h = 0.0409%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,563,924
+===
+2026-03-29 11:44:45,559 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,114 quote | book_top/vol24h = 0.0409%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,563,924
+===
+2026-03-29 11:44:45,559 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,114 quote | book_top/vol24h = 0.0409%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,563,924
+===
+2026-03-29 11:44:45,560 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:45,560 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:45,560 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:45,560 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:45,560 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:45,560 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10000.9020 USDT + 0.00000000 BTC ~ patrimônio 10000.9020 USDT (PnL vs início: +0.9020, taxas: 0.7517, operações: 30)
+2026-03-29 11:44:47,314 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,984 quote | book_top/vol24h = 0.0411%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,561,764
+===
+2026-03-29 11:44:47,314 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,984 quote | book_top/vol24h = 0.0411%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,561,764
+===
+2026-03-29 11:44:47,314 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,984 quote | book_top/vol24h = 0.0411%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,561,764
+===
+2026-03-29 11:44:47,314 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,984 quote | book_top/vol24h = 0.0411%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,561,764
+===
+2026-03-29 11:44:47,314 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,984 quote | book_top/vol24h = 0.0411%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,561,764
+===
+2026-03-29 11:44:47,314 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 217,984 quote | book_top/vol24h = 0.0411%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,561,764
+===
+2026-03-29 11:44:47,315 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:47,315 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:47,315 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:47,315 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:47,315 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:47,315 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10000.9621 USDT + 0.00000000 BTC ~ patrimônio 10000.9621 USDT (PnL vs início: +0.9621, taxas: 0.8018, operações: 32)
+2026-03-29 11:44:48,899 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 243,783 quote | book_top/vol24h = 0.0459%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,566,852
+===
+2026-03-29 11:44:48,899 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 243,783 quote | book_top/vol24h = 0.0459%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,566,852
+===
+2026-03-29 11:44:48,899 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 243,783 quote | book_top/vol24h = 0.0459%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,566,852
+===
+2026-03-29 11:44:48,899 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 243,783 quote | book_top/vol24h = 0.0459%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,566,852
+===
+2026-03-29 11:44:48,899 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 243,783 quote | book_top/vol24h = 0.0459%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,566,852
+===
+2026-03-29 11:44:48,899 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 243,783 quote | book_top/vol24h = 0.0459%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,566,852
+===
+2026-03-29 11:44:48,900 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:48,900 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:48,900 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:48,900 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:48,900 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:48,900 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10001.0222 USDT + 0.00000000 BTC ~ patrimônio 10001.0222 USDT (PnL vs início: +1.0222, taxas: 0.8519, operações: 34)
+2026-03-29 11:44:50,526 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 290,024 quote | book_top/vol24h = 0.0547%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,567,428
+===
+2026-03-29 11:44:50,526 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 290,024 quote | book_top/vol24h = 0.0547%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,567,428
+===
+2026-03-29 11:44:50,526 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 290,024 quote | book_top/vol24h = 0.0547%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,567,428
+===
+2026-03-29 11:44:50,526 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 290,024 quote | book_top/vol24h = 0.0547%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,567,428
+===
+2026-03-29 11:44:50,526 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 290,024 quote | book_top/vol24h = 0.0547%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,567,428
+===
+2026-03-29 11:44:50,526 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 290,024 quote | book_top/vol24h = 0.0547%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.30
+Volume 24h (quote, API): 530,567,428
+===
+2026-03-29 11:44:50,527 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:50,527 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:50,527 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:50,527 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:50,527 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:50,527 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10001.0824 USDT + 0.00000000 BTC ~ patrimônio 10001.0824 USDT (PnL vs início: +1.0824, taxas: 0.9020, operações: 36)
+2026-03-29 11:44:52,358 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 289,414 quote | book_top/vol24h = 0.0545%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,380
+===
+2026-03-29 11:44:52,358 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 289,414 quote | book_top/vol24h = 0.0545%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,380
+===
+2026-03-29 11:44:52,358 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 289,414 quote | book_top/vol24h = 0.0545%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,380
+===
+2026-03-29 11:44:52,358 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 289,414 quote | book_top/vol24h = 0.0545%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,380
+===
+2026-03-29 11:44:52,358 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 289,414 quote | book_top/vol24h = 0.0545%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,380
+===
+2026-03-29 11:44:52,358 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 289,414 quote | book_top/vol24h = 0.0545%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,380
+===
+2026-03-29 11:44:52,360 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:52,360 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:52,360 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:52,360 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:52,360 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:52,360 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10001.1425 USDT + 0.00000000 BTC ~ patrimônio 10001.1425 USDT (PnL vs início: +1.1425, taxas: 0.9521, operações: 38)
+2026-03-29 11:44:53,881 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 247,170 quote | book_top/vol24h = 0.0466%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,755
+===
+2026-03-29 11:44:53,881 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 247,170 quote | book_top/vol24h = 0.0466%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,755
+===
+2026-03-29 11:44:53,881 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 247,170 quote | book_top/vol24h = 0.0466%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,755
+===
+2026-03-29 11:44:53,881 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 247,170 quote | book_top/vol24h = 0.0466%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,755
+===
+2026-03-29 11:44:53,881 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 247,170 quote | book_top/vol24h = 0.0466%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,755
+===
+2026-03-29 11:44:53,881 | filter | === Avaliação de mercado: BTCUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 247,170 quote | book_top/vol24h = 0.0466%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 6.35  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 16.5  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.125%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 66,567.31
+Volume 24h (quote, API): 530,573,755
+===
+2026-03-29 11:44:53,883 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:53,883 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:53,883 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:53,883 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:53,883 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 11:44:53,883 | agent | Papel: compra no bid 66420.8569, venda no ask 66713.7531 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira BTCUSDT: 10001.2026 USDT + 0.00000000 BTC ~ patrimônio 10001.2026 USDT (PnL vs início: +1.2026, taxas: 1.0022, operações: 40)

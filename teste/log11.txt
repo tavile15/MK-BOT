@@ -1,0 +1,516 @@
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,093 | filter | === Avaliação de mercado: SOLUSDT ===
+Veredito: APTO — pode acionar o agente/motor
+
+1) Liquidez no book: MODO RELAXADO (não aplica teto; majors deixam de ser barrados só por isso)
+    medido (informativo): 6,122,420 quote | book_top/vol24h = 6.2450%
+
+2) Regime lateral — razão (amplitude recente / ATR):
+    medido: 7.62  |  permitido: 0.50 … 14.00  |  OK
+    (valores altos: amplitude grande versus ruído local)
+
+3) Força de tendência — ADX (maior = mais direcional):
+    medido: 15.4  |  teto: <= 42.0  |  OK
+
+4) Volatilidade — ATR em % do preço:
+    medido: 0.183%  |  faixa: 0.050% … 1.200%  |  OK
+
+Referência: último preço ~ 81.69
+Volume 24h (quote, API): 98,036,411
+===
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+2026-03-29 13:46:17,106 | agent | Papel (synthetic_mid): compra 81.5053, venda 81.8647 | margem bruta 0.110243 quote, taxas 0.050110, liquido 0.060132 quote
+TICK | apt=sim | Carteira SOLUSDT: 10000.3608 USDT + 0.00000000 SOL ~ patrimônio 10000.3608 USDT (PnL vs início: +0.3608, taxas: 0.3007, operações: 12)

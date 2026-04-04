@@ -1,0 +1,4 @@
+$env:PYTHONPATH = "F:\AMBIENTE VIRTUAL\CODIGOS\python\MICROSTRANSAÇÕES 2.0\src"
+$env:BINANCE_TESTNET_API_KEY = "P0P9lW59fru8SS6udVv04ys96R6NuZt07vQnoiZmi3Sjk8I2Uk0mnBdWLmcBF7Na"
+$env:BINANCE_TESTNET_API_SECRET = "feFrXIzhj4C6fyUp3uF9CdN3uRk1eQ24oYxVycQKJdOAWOcuh9CZTpnEabfSdvGl"
+python -m microtrans.binance_testnet_cli account
