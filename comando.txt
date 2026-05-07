@@ -1,0 +1,1 @@
+py -3.11 "f:\AMBIENTE VIRTUAL\CODIGOS\python\MOTOR-SIMPLIFICADO\engine_gui.py"
