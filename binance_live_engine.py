@@ -23,6 +23,13 @@ from typing import Optional, List, Tuple, Dict, Any
 
 import numpy as np
 
+# Pasta base da aplicação (script em dev, pasta do .exe em modo frozen)
+_APP_DIR = (
+    os.path.dirname(os.path.abspath(sys.executable))
+    if getattr(sys, "frozen", False)
+    else os.path.dirname(os.path.abspath(__file__))
+)
+
 # ═══════════════════════════════════════════════════════════════════════════
 #  CHAVE PRINCIPAL — altere aqui para trocar o modo de operação
 #
@@ -1219,7 +1226,7 @@ class TradingEngine:
 
 # ── Gestão de arquivos de auditoria ─────────────────────────────────────
 
-_AUDIT_DIR = os.path.dirname(os.path.abspath(__file__))   # mesmo diretório do motor
+_AUDIT_DIR = _APP_DIR   # mesmo diretório do script/.exe
 
 
 def _list_audit_files(audit_dir: str) -> List[str]:
@@ -1459,7 +1466,7 @@ def _scan_plugins(search_dir: str) -> List[str]:
     Retorna lista de caminhos absolutos ordenados por nome.
     Exclui o próprio motor para não aparecer na lista.
     """
-    engine_file = os.path.abspath(__file__)
+    engine_file = os.path.join(_APP_DIR, "binance_live_engine.py")
     found: List[str] = []
     try:
         for name in sorted(os.listdir(search_dir)):
@@ -1488,7 +1495,7 @@ def _select_plugin() -> types.ModuleType:
     3. Permite digitar o número, o caminho direto, ou buscar em outra pasta.
     4. Valida que o módulo carregado exporta propose() callable.
     """
-    engine_dir = os.path.dirname(os.path.abspath(__file__))
+    engine_dir = _APP_DIR
 
     while True:
         search_dir = engine_dir

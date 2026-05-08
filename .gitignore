@@ -9,3 +9,8 @@ audit_*.json
 *.log
 .idea/
 .vscode/
+.claude/
+build/
+dist/
+temp/
+release-executaveis/
